@@ -5,7 +5,17 @@ import org.bukkit.Material;
 import org.bukkit.SkullType;
 import org.bukkit.inventory.ItemStack;
 
-public class ItemHandler implements ItemManager {
+public class ItemHandler  implements ItemManager {
+    @Override
+    public ItemStack getRedWool() {
+        return new ItemStack(Material.WOOL, 1, (short) 14);
+    }
+
+    @Override
+    public ItemStack getGreenWool() {
+        return new ItemStack(Material.WOOL, 1, (short) 5);
+    }
+
     @Override
     public Material getWritableBook() {
         return Material.BOOK_AND_QUILL;

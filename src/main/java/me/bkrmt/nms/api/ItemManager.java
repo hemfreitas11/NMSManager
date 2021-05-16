@@ -28,6 +28,10 @@ public interface ItemManager {
 
     ItemStack getRedPane();
 
+    ItemStack getGreenWool();
+
+    ItemStack getRedWool();
+
     ItemStack getRedDye();
 
     ItemStack getCyanDye();
