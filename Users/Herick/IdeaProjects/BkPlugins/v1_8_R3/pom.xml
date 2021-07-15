@@ -37,7 +37,7 @@
         </dependency>
         <dependency>
             <groupId>me.bkrmt</groupId>
-            <artifactId>bkplugins-api</artifactId>
+            <artifactId>nms-api</artifactId>
             <version>API</version>
             <type>jar</type>
         </dependency>

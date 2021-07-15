@@ -11,6 +11,11 @@ public class SoundHandler implements SoundManager {
     }
 
     @Override
+    public Sound getExpPickup() {
+        return Sound.ORB_PICKUP;
+    }
+
+    @Override
     public Sound getPling() {
         return Sound.NOTE_PLING;
     }

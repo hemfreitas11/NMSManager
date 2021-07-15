@@ -6,4 +6,6 @@ public interface SoundManager {
     Sound getClick();
 
     Sound getPling();
+
+    Sound getExpPickup();
 }
