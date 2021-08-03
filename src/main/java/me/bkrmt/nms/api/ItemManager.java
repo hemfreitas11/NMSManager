@@ -4,6 +4,8 @@ import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 public interface ItemManager {
+    Material getFence();
+
     Material getSign();
 
     Material getBed();
