@@ -4,6 +4,26 @@ import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 public interface ItemManager {
+    ItemStack getRedstoneTorch();
+
+    ItemStack getRepeater();
+
+    ItemStack getComparator();
+
+    ItemStack getGreenStainedGlass();
+
+    ItemStack getLimeStainedGlass();
+
+    ItemStack getLimePane();
+
+    ItemStack getBrownStainedGlass();
+
+    ItemStack getOrangeStainedGlass();
+
+    ItemStack getOrangePane();
+
+    Material getCommandBlock();
+
     Material getFence();
 
     Material getSign();

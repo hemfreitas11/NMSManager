@@ -8,4 +8,6 @@ public interface SoundManager {
     Sound getPling();
 
     Sound getExpPickup();
+
+    Sound getSpecial();
 }
