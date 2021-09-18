@@ -1,9 +1,9 @@
 package me.bkrmt.nms.api;
 
 public interface NMS {
-    SoundManager getSoundManager();
+/*    SoundManager getSoundManager();
 
-    ItemManager getItemManager();
+    ItemManager getItemManager();*/
 
     MethodManager getMethodManager();
 

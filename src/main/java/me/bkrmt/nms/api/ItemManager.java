@@ -1,3 +1,4 @@
+/*
 package me.bkrmt.nms.api;
 
 import org.bukkit.Material;
@@ -58,3 +59,4 @@ public interface ItemManager {
 
     ItemStack getCyanDye();
 }
+*/
