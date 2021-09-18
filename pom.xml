@@ -2,9 +2,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>nms-api</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <name>NMS-API</name>
-    <version>API</version>
+    <version>NMS-PARENT</version>
 
     <properties>
         <java.version>1.8</java.version>
@@ -35,19 +35,20 @@
         </plugins>
     </build>
 
+    <modules>
+        <module>API</module>
+        <module>v1_8_R1</module>
+        <module>v1_8_R2</module>
+        <module>v1_8_R3</module>
+        <module>v1_9_R1</module>
+        <module>v1_13_R1</module>
+        <module>v1_14_R1</module>
+        <module>v1_16_R1</module>
+    </modules>
+
     <parent>
         <groupId>me.bkrmt</groupId>
-        <artifactId>bkplugins-parent</artifactId>
-        <version>parent</version>
+        <artifactId>plugin-core</artifactId>
+        <version>CORE-PARENT</version>
     </parent>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.13</version>
-            <type>jar</type>
-            <optional>true</optional>
-        </dependency>
-    </dependencies>
 </project>

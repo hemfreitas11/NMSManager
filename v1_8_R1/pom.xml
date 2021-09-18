@@ -1,7 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>me.bkrmt</groupId>
     <artifactId>v1_8_R1</artifactId>
     <packaging>jar</packaging>
     <name>v1_8_R1</name>
@@ -38,8 +37,8 @@
 
     <parent>
         <groupId>me.bkrmt</groupId>
-        <artifactId>bkplugins-parent</artifactId>
-        <version>parent</version>
+        <artifactId>nms-api</artifactId>
+        <version>NMS-PARENT</version>
     </parent>
 
     <dependencies>
@@ -52,8 +51,8 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>me.bkrmt</groupId>
-            <artifactId>nms-api</artifactId>
+            <groupId>me.bkrmt.nms</groupId>
+            <artifactId>api</artifactId>
             <version>API</version>
             <scope>provided</scope>
         </dependency>

@@ -38,8 +38,8 @@
 
     <parent>
         <groupId>me.bkrmt</groupId>
-        <artifactId>bkplugins-parent</artifactId>
-        <version>parent</version>
+        <artifactId>nms-api</artifactId>
+        <version>NMS-PARENT</version>
     </parent>
 
     <dependencies>
@@ -52,8 +52,8 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>me.bkrmt</groupId>
-            <artifactId>nms-api</artifactId>
+            <groupId>me.bkrmt.nms</groupId>
+            <artifactId>api</artifactId>
             <version>API</version>
             <scope>provided</scope>
         </dependency>
